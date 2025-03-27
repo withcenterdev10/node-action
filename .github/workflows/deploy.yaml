@@ -10,6 +10,6 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
       - name: my-actions
-        uses: ./
+        uses: ./action/
       - name: Successful
         run: echo "My actions works"
