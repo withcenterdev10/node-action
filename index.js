@@ -1,1 +1,1 @@
-console.log("Test")
+console.log("My own action")
