@@ -1,0 +1,15 @@
+name: sample workflow
+on:
+  push:
+    branches:
+      - main
+jobs:
+  sample-build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: my-actions
+        uses: ./
+      - name: Successful
+        run: echo "My actions works"
